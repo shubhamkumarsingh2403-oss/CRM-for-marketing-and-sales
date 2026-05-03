@@ -330,6 +330,15 @@ export default function SigninPage() {
               Sign up here
             </Link>
           </p>
+          <div className="mt-8 flex justify-center space-x-4 text-xs text-neutral-500">
+            <Link href="/privacy" className="hover:text-neutral-900 hover:underline">
+              Privacy Policy
+            </Link>
+            <span>&bull;</span>
+            <Link href="/terms" className="hover:text-neutral-900 hover:underline">
+              Terms of Service
+            </Link>
+          </div>
         </div>
       </div>
     </div>
